@@ -4,7 +4,8 @@ library(pdftools)
 
 ### Convert .pdf to .jpeg
 
-# Single file
+
+# Single file lowman rules
 
 pdf_convert(pdf = paste0(getwd(), "/_maps/_fmz_surfgeo__DDP_5.pdf"), format = 'jpeg', page = 1, filename = '_test.jpg', dpi = 300)
 
